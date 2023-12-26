@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    {{> meta }}
+  </head>
+
+  <body>
+
+    <main class="page-main">
+      <section class="catalog">
+        <div class="catalog__product-image-wrapper">
+          <img src="/images/catalog-product.webp" alt="" class="catalog__product-image">
+        </div>
+        <div class="catalog__product-main">
+          <div class="catalog__product-name">
+            Black sweatshirt
+          </div>
+          <div class="catalog__details">
+            <form action="/" class="catalog__details-form">
+              <div class="catalog__radio-block">
+                <div class="catalog__radio-block-title">
+                  Size
+                </div>
+                <div class="catalog__radio-btns">
+                  <label class="catalog__radio-btn">
+                    <input type="radio" value="S" name="size" class="catalog__radio-btn-input" checked="">
+                    <span class="catalog__radio-btn-text">
+                      S
+                    </span>
+                  </label>
+                  <label class="catalog__radio-btn">
+                    <input type="radio" value="M" name="size" class="catalog__radio-btn-input">
+                    <span class="catalog__radio-btn-text">
+                      M
+                    </span>
+                  </label>
+                  <label class="catalog__radio-btn">
+                    <input type="radio" value="L" name="size" class="catalog__radio-btn-input">
+                    <span class="catalog__radio-btn-text">
+                      L
+                    </span>
+                  </label>
+                  <label class="catalog__radio-btn">
+                    <input type="radio" value="XL" name="size" class="catalog__radio-btn-input">
+                    <span class="catalog__radio-btn-text">
+                      XL
+                    </span>
+                  </label>
+                  <label class="catalog__radio-btn">
+                    <input type="radio" value="XXL" name="size" class="catalog__radio-btn-input">
+                    <span class="catalog__radio-btn-text">
+                      XXL
+                    </span>
+                  </label>
+                </div>
+              </div>
+              <div class="catalog__radio-block">
+                <div class="catalog__radio-block-title">
+                  Color
+                </div>
+                <div class="catalog__radio-btns">
+                  <label class="catalog__radio-btn">
+                    <input type="radio" value="White" name="color" class="catalog__radio-btn-input" checked="">
+                    <span class="catalog__radio-btn-text">
+                      White
+                    </span>
+                  </label>
+                  <label class="catalog__radio-btn">
+                    <input type="radio" value="Blue" name="color" class="catalog__radio-btn-input">
+                    <span class="catalog__radio-btn-text">
+                      Blue
+                    </span>
+                  </label>
+                  <label class="catalog__radio-btn">
+                    <input type="radio" value="Red" name="color" class="catalog__radio-btn-input">
+                    <span class="catalog__radio-btn-text">
+                      Red
+                    </span>
+                  </label>
+
+                </div>
+              </div>
+              <div class="catalog__price-block">
+                <div class="catalog__price-block-title">
+                  priсe
+                </div>
+                <div class="catalog__price-block-value">
+                  75000 ₽
+                </div>
+              </div>
+              <div class="catalog__add-to-cart">
+                <span class="catalog__add-to-cart-title">
+                  Cart
+                </span>
+                <button class="catalog__add-to-cart-btn" type="button">
+                  ADD TO CART
+                </button>
+                <div class="catalog__add-to-cart-counter">
+                  <button class="catalog__add-to-cart-counter-minus" type="button">
+                    −
+                  </button>
+                  <input type="text" class="catalog__add-to-cart-counter-amount" readonly="" value="1" size="1">
+                  <button class="catalog__add-to-cart-counter-plus" type="button">
+                    +
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <a href="#" class="catalog__main-title">
+            Гоша рубчинский
+          </a>
+          <div class="catalog__description">
+            <h3>
+              DETAILS
+            </h3>
+            <p>
+              90% Wool 10% Polyamide / Lining 100% Viscose / Pockets Lining 100% Cotton / Leather part 100% Lambskin /
+              ‘c’ Patch on the chest / Classic fit / Two-tone Teddy collar / Leather shoulders and seeves / 2 diagonal
+              welt pockets / Two-tone ribbed trim / 7 contrasting snap buttons / Made in Italy / Reference :
+              2v29t896c.14bu
+            </p>
+            <h3>
+              CARE AND MAINTENANCE
+            </h3>
+            <p>
+              Do not wash with water. / Only use bleach-free laundry products. / Do not tumble dry. / Do not iron. / Do
+              not dry clean.
+            </p>
+          </div>
+        </div>
+
+
+
+
+
+
+      </section>
+    </main>
+
+
+    <script type="module" src="/src/js/main.ts"></script>
+  </body>
+
+</html>
