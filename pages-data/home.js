@@ -1,6 +1,6 @@
 const home = {
   "/index.html": {
-    title: "Главная страница",
+    title: "Home",
   },
 };
 

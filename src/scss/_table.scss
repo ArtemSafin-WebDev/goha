@@ -1,0 +1,27 @@
+.table {
+  margin: 4rem 0;
+
+  * {
+    text-transform: uppercase;
+  }
+
+  td, th {
+    padding: 10px 10px 10px 0;
+  }
+
+  td:last-of-type {
+    padding-right: 0;
+  }
+
+  tr:first-of-type {
+    td, th {
+      padding-top: 0;
+    }
+  }
+
+  tr:last-of-type {
+    td, th {
+      padding-bottom: 0;
+    }
+  }
+}

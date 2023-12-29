@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{> meta }}
+</head>
+
+<body>
+
+<main class="page-main">
+  <section class="home home--white">
+    <div class="home__image-wrapper">
+      <img src="/images/newsletter.jpg" alt="" class="home__image">
+    </div>
+    <div class="home__title-wrapper">
+      <a href="#" class="home__main-title">
+        Гоша рубчинский
+      </a>
+      <div class="home__content">
+        <div class="home__controls">
+          <div class="home__links">
+            <span class="home__link">
+              Newsletter
+            </span>
+          </div>
+        </div>
+
+        <div class="home__content-shrink">
+          <p>Subscribe to receive information about offers, news and events.</p>
+
+          <form class="form" data-need-validation>
+            <label class="c-input">
+              <input class="c-input__element" type="email" placeholder="Email" required>
+              <span class="c-input__placeholder">Email</span>
+            </label>
+          </form>
+
+          <p>For further information on the processing of your personal data, please consult our <a href="#">privacy
+            policy</a>.</p>
+        </div>
+      </div>
+    </div>
+    <div class="home__back-links">
+      <a href="/" class="home__back-link">
+        back
+      </a>
+      <a href="/" class="home__back-link">
+        confirm
+      </a>
+    </div>
+  </section>
+</main>
+
+<script type="module" src="/src/js/main.ts"></script>
+</body>
+
+</html>

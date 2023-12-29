@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{> meta }}
+</head>
+
+<body>
+
+<main class="page-main">
+  <section class="home home--white">
+    <div class="home__image-wrapper">
+      <img src="/images/newsletter.jpg" alt="" class="home__image">
+    </div>
+    <div class="home__title-wrapper">
+      <a href="#" class="home__main-title">
+        Гоша рубчинский
+      </a>
+      <div class="home__content">
+        <div class="home__controls">
+          <div class="home__links">
+            <span class="home__link">
+              SHIPPING & RETURNS
+            </span>
+          </div>
+
+          <div class="tabs">
+            <div class="tabs__heads">
+              <button class="tabs__head js-tab-head active" type="button" data-tab="shipping">Shipping</button>
+              <span>/</span>
+              <button class="tabs__head js-tab-head" type="button" data-tab="returns">Returns</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tabs">
+          <div class="tabs__bodies">
+            <div class="tabs__body js-tab-body active" data-tab="shipping">
+              <h3>Order processing</h3>
+              <p>Orders are processed monday–friday and shipped within 3-7 business days. Excluding the weekend and
+                major holidays. Once your order is processed and shipped, you will receive an email notification with
+                your tracking information.</p>
+              <h3>Shipping</h3>
+              <p>For international shipments, we use proven freight forwarders such as TNT, DHL or UPS. In order to
+                handle the journey and protect our products from potential damage, we make sure that they are packed
+                sufficiently.</p>
+              <p>Our prices don't include shipping costs. They will be added to your order during checkout.</p>
+              <p>Shipping to Belarus and Iran is not available.</p>
+            </div>
+            <div class="tabs__body js-tab-body" data-tab="returns">
+              <h3>Eligibility for return</h3>
+              <p>You are eligible to return a product within 30 days from the date of delivery for a full refund or
+                exchange. The product must be in its original condition, unworn, unwashed, and with all original tags
+                attached. Certain items such as intimate apparel, swimsuits, and final sale items are ineligible for
+                return due to hygiene reasons. Please check the product description for eligibility before
+                purchasing.</p>
+              <h3>Return process</h3>
+              <p>— To initiate a return, please log in to your account on our website, select the order you wish to
+                return, and follow the step-by-step instructions.</p>
+              <p>— package the item in its original packaging, along with the order invoice or packing slip.</p>
+              <p>— drop off the package at the nearest authorized shipping carrier or schedule a pickup.</p>
+              <h3>Refunds</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus accusantium aperiam distinctio
+                eaque, eos est explicabo ipsa magnam natus optio porro reiciendis repellendus similique?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home__back-links">
+      <a href="/" class="home__back-link">
+        back
+      </a>
+    </div>
+  </section>
+</main>
+
+<script type="module" src="/src/js/main.ts"></script>
+</body>
+
+</html>

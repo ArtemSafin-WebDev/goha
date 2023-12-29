@@ -1,3 +1,5 @@
-const globalContext = {};
+const globalContext = {
+    title: "Гоша Рубчинский"
+};
 
 export default globalContext;

@@ -1,0 +1,54 @@
+.tabs {
+
+}
+
+.tabs__heads {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  span {
+    opacity: 0.5;
+  }
+}
+
+.tabs__head {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+
+  opacity: 0.5;
+
+  transition: opacity 0.3s;
+
+  @include breakpoint(mobile) {
+    font-size: 1.2rem;
+  }
+
+  &.active {
+    opacity: 1;
+    pointer-events: none;
+  }
+}
+
+.tabs__bodies {
+  position: relative;
+}
+
+.tabs__body {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: opacity 0.3s, visibility 0.3s;
+
+  &.active {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+  }
+}
